@@ -35,6 +35,8 @@ class MainActivity : AppCompatActivity() {
             // startActivity(nowaAktywność)
 
             val mDialogView = LayoutInflater.from(this).inflate(R.layout.activity_new_game, null);
+
+
             val mBuilder = AlertDialog.Builder(this)
                 .setView(mDialogView)
             val mAlertDialog = mBuilder.show()
@@ -51,9 +53,17 @@ class MainActivity : AppCompatActivity() {
             mDialogView.Start_button.setOnClickListener {
                 WhiteName=mDialogView.InputWhiteName.text.toString()
                 BlackName=mDialogView.InputBlackName.text.toString()
+
                 start_flag=true;
                 val firebaseInput = DatabaseClockSetup(Zegar.toInt(), ZegarIncrement.toInt(),WhiteName, BlackName, start_flag)
                 myRef.setValue(firebaseInput)
+                var nowaAktywność= Intent(applicationContext, ChessboardLive::class.java)
+                //startActivity(nowaAktywność)
+
+                val intent= Intent(this@MainActivity, ChessboardLive::class.java)
+                intent.putExtra("white", mDialogView.InputWhiteName.text.toString())
+                intent.putExtra("black", mDialogView.InputBlackName.text.toString())
+                startActivity(intent)
             }
 
             adapter.setDropDownViewResource(android.R.layout.simple_dropdown_item_1line)

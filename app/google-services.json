@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "55199873728",
+    "firebase_url": "https://chessboard-iot2020.firebaseio.com",
+    "project_id": "chessboard-iot2020",
+    "storage_bucket": "chessboard-iot2020.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:55199873728:android:6861144c61e5341c85cb25",
+        "android_client_info": {
+          "package_name": "rafal.example.szachownica"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "55199873728-q0l66b5jepnu5vrj15cqlflm8pl86iod.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "rafal.example.szachownica",
+            "certificate_hash": "b0bc5c5b99d8d7b0bb10c42df84b2175129a7a6c"
+          }
+        },
+        {
+          "client_id": "55199873728-abtijicscfpsg8lopd3ufsehb247njjv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9pLew8Fg_Z-q8xmSk94-qLC_numbOey0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "55199873728-abtijicscfpsg8lopd3ufsehb247njjv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

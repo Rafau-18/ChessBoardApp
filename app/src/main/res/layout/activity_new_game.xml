@@ -69,7 +69,7 @@
                 android:textColor="#FFFFFF"
                 android:textAlignment="center"
                 android:inputType="textPersonName"
-                android:textColorHint="#FFFFFF"
+                android:textColorHint="#AAAAAA"
                 android:backgroundTint="@color/colorAccent"
                 android:hint="WhitePlayerName" />
 
@@ -79,7 +79,7 @@
                 android:layout_height="wrap_content"
                 android:ems="9"
                 android:textColor="#FFFFFF"
-                android:textColorHint="#FFFFFF"
+                android:textColorHint="#AAAAAA"
                 android:backgroundTint="@color/colorAccent"
                 android:textAlignment="center"
                 android:inputType="textPersonName"

@@ -5,4 +5,6 @@
     <color name="colorAccent">#EABF41</color>
     <color name="selectplayercolor">#FFFFFF</color>
     <color name="GameSettingDialogBackground">#E9222222</color>
+    <color name="lightTile">#f0dab5</color>
+    <color name="darkTile">#b58763</color>
 </resources>
